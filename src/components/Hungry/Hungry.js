@@ -10,7 +10,9 @@ function Hungry() {
       <p>{message}</p>
       <button
         onClick={() => setHungry((previousHungry) => !previousHungry)}
-        type="button"
+        type="button" 
+        
+
       >
         {hungry ? "eat" : "wait 8 hours"}
       </button>
